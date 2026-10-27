@@ -7,7 +7,6 @@ int main() {
 	hundreds = n1 / 100;
 	onse = n1 % 10;
 	tens = n1 / 10 - (hundreds * 10);
-	cout << onse << tens << hundreds << endl;
 	cout <<"The number in revers is : " << (onse * 100) + (tens * 10) + hundreds;
 }
 
